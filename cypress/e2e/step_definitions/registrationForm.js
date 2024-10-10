@@ -1,7 +1,7 @@
 import { Given, When, Then, } from "@badeball/cypress-cucumber-preprocessor";
 import { cdi } from '@pages/Common_Data_Input'
 import { cip } from "@pages/College_IDP_Pages";
-import allure from '@shelex/cypress-allure-plugin';
+// import allure from '@shelex/cypress-allure-plugin';
 
 Given("Lunch home page url for Registration for College IDP with twelfth Passed with Different Education Stream", function () {
     cdi.OpenURL()
